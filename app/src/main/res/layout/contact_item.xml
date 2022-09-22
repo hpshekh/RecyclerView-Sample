@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="#FFFACB"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        tools:text="Hakesh Shekh" />
+
+    <TextView
+        android:id="@+id/mobileText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#353535"
+        android:textSize="15dp"
+        tools:text="9574797260" />
+
+    <TextView
+        android:id="@+id/emailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#353535"
+        android:textSize="15dp"
+        tools:text="hakesh.shekh@gmail.com" />
+
+
+</LinearLayout>
